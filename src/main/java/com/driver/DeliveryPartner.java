@@ -1,5 +1,6 @@
 package com.driver;
 
+
 public class DeliveryPartner {
 
     private String id;
@@ -8,6 +9,9 @@ public class DeliveryPartner {
     public DeliveryPartner(String id) {
         this.id = id;
         this.numberOfOrders = 0;
+    }
+
+    public DeliveryPartner() {
     }
 
     public String getId() {
